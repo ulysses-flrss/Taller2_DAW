@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 2 - DAW</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/comentar.css">
+</head>
+
+<body>
+    <form action="" id="form">
+        <h1>Bienvenido al Restaurante</h1>
+        <h2>Combos</h2>
+        <article class="combos">
+            <div class="combo" id="combo1">
+                <h4 class="nombre-combo">Super Combo</h4>
+                <img src="img/img-combo1.jpg" alt="Combo1">
+                <p class="descripcion-combo">
+                    Tres piezas de pollo, ensalada, papas fritas y bebida grande de su elección
+                </p>
+                <label><input type="checkbox" name="superCombo" id="combo-1" value="7.25" checked>$7.25</label>
+            </div>
+    
+            <div class="combo" id="combo2">
+                <h4 class="nombre-combo">Combo Personal</h4>
+                <img src="img/img-combo2.png" alt="Combo2">
+                <p class="descripcion-combo">
+                    Dos piezas  de pollo, papa frita y bebida mediana
+                </p>
+                <label><input type="checkbox" name="comboPersonal" id="combo-2" value="5.25">$5.75</label>
+            </div>
+    
+            <div class="combo" id="combo3">
+                <h4 class="nombre-combo">Combo Infantil</h4>
+                <img src="img/img-combo3.png" alt="Combo3">
+                <p class="descripcion-combo">
+                    Una pieza de pollo, papas  fritas y una bebida pequeña
+                </p>
+                <label><input type="checkbox" name="comboInfantil" value="3.50" id="combo-3">$3.50</label>
+            </div>
+        </article>
+    
+        <h2>Otros Productos</h2>
+        <article class="productos">
+            <div class="producto" id="ensalada">
+                <h4 class="nombre-producto">Ensalada</h4>
+                <img src="img/img-ensalada.jpg" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="ensalada" value="1.50">$1.50</label>
+            </div>
+
+            <div class="producto" id="papas-fritas">
+                <h4 class="nombre-producto">Papas Fritas</h4>
+                <img src="img/img-papas-fritas.webp" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="papaFrita" value="1.25"> $1.25</label>
+
+            </div>
+
+            <div class="producto" id="pieza-pollo-grande">
+                <h4 class="nombre-producto">Pieza de Pollo Grande</h4>
+                <img src="img/img-pieza-grande.png" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="piezaGrande" value="1.75">$1.75</label>
+
+            </div>
+
+            <div class="producto" id="pieza-pollo-mediana">
+                <h4 class="nombre-producto">Pieza de Pollo Mediana</h4>
+                <img src="img/img-pieza-mediana.png" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="piezaMediana" value="1.50">$1.50</label>
+
+            </div>
+
+            <div class="producto" id="pieza-pollo-pequena">
+                <h4 class="nombre-producto">Pieza de Pollo Pequeña</h4>
+                <img src="img/img-pieza-pequena.webp" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="piezaPequena" value="1.25">$1.25</label>
+
+            </div>
+
+            <div class="producto" id="bebida-grande">
+                <h4 class="nombre-producto">Bebida Grande</h4>
+                <img src="img/img-bebida-grande" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="bebidaGrande" value="1.50">$1.50</label>
+
+            </div>
+
+            <div class="producto" id="bebida-mediana">
+                <h4 class="nombre-producto">Bebida Mediana</h4>
+                <img src="img/img-bebida-mediana.png" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="bebidaMediana" value="1.25">$1.25</label>
+
+            </div>
+
+            <div class="producto" id="bebida-pequena">
+                <h4 class="nombre-producto">Bebida Pequeña</h4>
+                <img src="img/img-bebida-pequena.jpg" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="bebidaPequena" value="1.00">$1.00</label>
+
+            </div>
+
+            <div class="producto" id="cafe">
+                <h4 class="nombre-producto">Café</h4>
+                <img src="img/img-cafe.webp" alt="producto1">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="cafe" value="0.50">$0.50</label>
+
+            </div>
+
+            <div class="producto" id="postre">
+                <h4 class="nombre-producto">Postre</h4>
+                <img src="img/img-postre.png" alt="producto2">
+                <p class="descripcion-producto">
+                    
+                </p>
+                <label><input type="checkbox" name="postre" value="1.25">$1.25</label>
+
+            </div>
+
+            <div class="total" id="total">
+                <label>
+                    Total: $<input type="text" name="total" id="total" class="num" value="0.00"
+                    readonly="readonly" />
+                    </label>
+            </div>
+
+            <div class="two">
+                <button id="comentario">Comentario</button>
+                <label><input type="text" value="" id="inputComen" class="caja"></label>
+
+                
+            </div>
+
+            <div class="envio" id="enviar">
+                <label><input type="submit" name="Enviar Pedido" value="submit"></label>
+            </div>
+        </article>
+    </form>
+    <script src="js/pedido.js"></script>
+    <script src="js/comentario.js"></script>
+</body>
+</html>

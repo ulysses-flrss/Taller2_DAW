@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Montserrat:ital,wght@1,800&family=Noto+Sans+JP:wght@300&family=Noto+Sans+Mono:wght@700&display=swap');
+
+
+body {
+    background-color: #ffcc50;
+
+}
+
+
+
+h1,h2 {
+    text-align: center;
+    display: block !important;
+    width: 100%;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    font-family: 'Alkalami', serif;
+}
+
+.combos {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-items: center;
+}
+
+.combo, .producto {
+    /* background-color: #c06500; */
+    background-color: #d99843;
+    border-radius: 10px;
+    padding: 2em;
+    width: 65%;
+    height: auto;
+
+    display: grid;
+    justify-items: center;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    row-gap: 1.25em;
+}
+
+.nombre-combo, .nombre-producto {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.nombre-producto {
+    font-size: 1.5em;
+    
+}
+
+.descripcion-combo {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+    width: 10em;
+    border-radius: 5px;
+}
+
+input[type='button'] {
+    background-color: #853400;
+    border-radius: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    
+    border: 0;
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    transition: 300ms all;
+}   
+
+input[type='button']:hover {
+    transition: 300ms all;
+    transform: scale(1.15);
+}
+
+input[type='button']:active {
+    transition: 100ms all;
+    transform: scale(0.90);
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type='text'] {
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 0;
+    outline: none;
+    padding: 0.75em;
+    margin: 0.5em;
+    border-radius: 5px;
+}
+
+.OtroTema {
+    display: grid;
+    justify-content: center;
+}
